@@ -3,7 +3,10 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World\n";
-  
+    for (int i = 1; i <= 20; i++)
+    {
+        cout << "Loop Nr. " << i << "\n";
+    }
+    
     return 0;
 }
